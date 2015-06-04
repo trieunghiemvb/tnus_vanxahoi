@@ -1,0 +1,12 @@
+.panel-heading h4{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.panel-group{
+    padding-top: 10px;
+}
+label.error { color: red; padding-left: .5em; line-height:35px;text-transform:none; }
+#main-wrapper{
+	width:960px;
+	margin:0 auto;
+}

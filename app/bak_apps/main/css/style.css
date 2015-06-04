@@ -1,0 +1,85 @@
+.stack {
+float: left;
+margin-bottom: 20px;
+padding-top: 50px;
+}
+.wrap_both {
+height: 100%;
+background: #ffffff;
+float: left;
+width: 100%;
+}
+.stack .image-content {
+width: 242px;
+height: 187px;
+overflow: hidden;
+}
+.six-pack .stack .thumbnail {
+border: 1px solid #D8D7D7;
+background: white;
+}
+.six-pack .stack a {
+padding: 5px;
+}
+.stack a, .stack .explicit-link {
+display: block;
+text-align: center;
+margin: 0 15px 0 15px;
+overflow: hidden;
+text-transform: uppercase;
+font: 700 12px arial;
+color: #505050;
+text-decoration: none;
+cursor: pointer;
+width: 208px;
+height: 156px;
+}
+.stack a, .stack .explicit-link {
+display: block;
+text-align: center;
+margin: 0 15px 0 15px;
+overflow: hidden;
+text-transform: uppercase;
+font: 700 12px arial;
+color: #505050;
+text-decoration: none;
+cursor: pointer;
+width: 208px;
+height: 156px;
+}
+.stack a, .stack .explicit-link {
+display: block;
+text-align: center;
+margin: 0 15px 0 15px;
+overflow: hidden;
+text-transform: uppercase;
+font: 700 12px arial;
+color: #505050;
+text-decoration: none;
+cursor: pointer;
+width: 208px;
+height: 156px;
+}
+.six-pack img {
+border: none !important;
+margin: 0 !important;
+padding: 0 !important;
+}
+.stack img {
+padding: 5px;
+background: white;
+margin-bottom: 4px;
+border: 1px solid #E0E0E0;
+display: block;
+width: 100%;
+height: 100%;
+}
+.stack .text-content {
+display: none;
+}
+.stack img:hover {
+    border-color: #DC2727;
+}
+.six-pack .stack:hover .thumbnail{
+	background: #E0E0E0;
+}

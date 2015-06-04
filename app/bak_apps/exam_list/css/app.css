@@ -1,0 +1,22 @@
+.filters{
+	background: #f6f6f6;
+	padding: 10px;
+	border: 1px solid #e0e0e0;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.filters .form-group{
+	margin-right: 20px;
+}
+.radio{
+	margin-top: 0;
+}
+.class_subject{
+	cursor: pointer;
+}
+.class_subject.selected{
+	background: #3cf;
+}
+.dataTables_wrapper .row{
+	margin:0 -10px;
+}

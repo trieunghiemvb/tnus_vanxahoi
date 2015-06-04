@@ -1,0 +1,307 @@
+
+.content{
+	margin: 5px 0 0 0;
+	width: 100%;
+}
+.top_menu_page {
+height: 40px;
+padding: 0px 20px;
+position: relative;
+z-index: 999;
+}
+.top_page {
+	margin: 0px auto;
+	width: 960px;
+}
+.box_top_page {
+margin: 5px 0 0 0;
+width: 100%;
+}
+.left {
+float: left;
+}
+.box_top_page .logo_taydotech {
+margin: 0 0 0px 0;
+margin-right: 20px;
+width: 8%;
+}
+.menu_top .list_menu {
+float: left;
+margin: 8px 0 0 0;
+}
+.menu_top .list_menu li {
+position: relative;
+display: block;
+margin: 0 20px 0 0;
+padding: 0 0px 0 0px;
+text-transform: uppercase;
+color: #545553;
+font: 700 11px arial;
+float: left;
+}
+.menu_top .list_menu li a {
+display: block;
+margin: 0 10px 0 0;
+padding: 0 0px 0 0px;
+color: #545553;
+font: 700 11px arial;
+text-transform: uppercase;
+}
+.top_menu_page .menu_top .sub_menu {
+top: 14px;
+}
+.menu_top ul li .sub_menu {
+position: absolute;
+top: 13px;
+left: 0px;
+z-index: 10;
+padding-top: 13px;
+display: none;
+}
+.menu_top ul li .sub_menu ul {
+background: #fff;
+border: 1px solid #c4c4c4;
+width: 190px;
+float: left;
+}
+.menu_top ul.list_menu li .sub_menu ul li {
+margin: 0px;
+background: #fff;
+}
+.menu_top ul li .sub_menu li.end_li {
+border: none;
+margin: 0px;
+}
+.menu_top ul li .sub_menu li {
+border-bottom: 1px solid #e0e1e1;
+float: left;
+width: 100%;
+margin-bottom: 5px;
+}
+.menu_top .list_menu li {
+position: relative;
+display: block;
+margin: 0 20px 0 0;
+padding: 0 0px 0 0px;
+text-transform: uppercase;
+color: #545553;
+font: 700 11px arial;
+float: left;
+}
+.menu_top ul.list_menu li .sub_menu ul li a {
+text-transform: none;
+font: 500 13px arial;
+padding: 5px;
+padding-left: 13px;
+margin: 0px;
+/*background: url(../../images/bg_submenu.gif);*/
+}
+.menu_top ul.list_menu li .sub_menu ul li a:hover {
+display: block;
+background-color: #e3e3e3;
+color: #000;
+text-decoration: none;
+/*background: url(../../images/bg_submenu.gif);*/
+}
+
+ul.list_menu li.has_sub {
+background: url(../../images/muiten_down.gif) no-repeat right 6px;
+}
+.menu_top ul li:hover .sub_menu, .menu_top ul li:hover a {
+display: block;
+color: #DC2727;
+}
+.menu_top ul li .sub_menu li a{
+    color:#333333;
+}
+.table-bordered{
+	width: 97%;
+	margin-left: 10px;
+}
+
+.footer {
+height: 99px;
+width: 100%;
+margin: 0 0 20px 0;
+}
+.clearfix {
+clear: both;
+}
+.footer p.clor_gray_bold {
+font: 500 11px arial;
+padding-top: 64px;
+}
+.clor_gray_bold {
+color: #464646;
+}
+.footer .content_footer {
+width: 960px;
+background: url(../../images/bg_bottom_footer.png) no-repeat bottom left;
+margin: 0 auto;
+height: 64px;
+}
+#wrapper_content_home_default {
+margin: 0px auto;
+width: 960px;
+float: none;
+position: relative;
+z-index: 10;
+}
+.link_navi {
+margin: 10px 0 0 0;
+}
+.right {
+float: right;
+}
+.menu_top .list_menu {
+float: left;
+margin: 8px 0 0 0;
+}
+#wrapper_content_home_default .list_menu li {
+margin: 0 0 0 20px;
+}
+.clor_green {
+color: #0d559a;
+}
+.center_page .block_content {
+position: relative;
+padding: 0px 0px;
+float: left;
+width: 100%;
+}
+.block_content {
+margin: 10px 0px 20px 0px;
+}
+#col_left {
+width: 190px;
+}
+.box_common {
+border: 1px solid #cccccc;
+padding: 10px;
+background: #fff;
+}
+.space_bottom {
+margin-bottom: 10px;
+margin-left: 0px;
+height: 680px;
+}
+.list_infor_accout li.end_li {
+border: none;
+}
+.list_infor_accout li {
+border-bottom: 1px solid #d9d9d9;
+padding: 1px 0px;
+}
+.list_infor_accout li a {
+display: block;
+padding: 7px 0px 7px 5px;
+font: 700 11px arial;
+}
+.list_infor_accout .list_submenu {
+margin-left: 0px;
+padding-left: 6px;
+border-top: 1px solid #D9D9D9;
+margin-top: 1px;
+}
+.list_infor_accout .list_submenu li {
+padding-left: 0px;
+}
+.list_infor_accout li {
+border-bottom: 1px solid #d9d9d9;
+padding: 1px 0px;
+}
+.list_infor_accout .list_submenu li a {
+font: 500 12px arial;
+padding: 4px 0px 4px 7px;
+background: url(../../images/bg_submenu_left.png) no-repeat left 10px;
+}
+.list_infor_accout li a {
+display: block;
+padding: 7px 0px 7px 5px;
+font: 700 11px arial;
+}
+.list_infor_accout li a:hover, .list_infor_accout li.active a {
+    color: #464646;
+    text-decoration: none;
+    background: #e3e3e3;
+}
+#col_right {
+width: 755px;
+background: #fff;
+border: 1px solid #d1d1d1;
+padding-bottom: 10px;
+min-height: 690px;
+}
+.list_submenu .sub_menu_left{
+	display:none;
+}
+.list_submenu li:hover .sub_menu_left{
+	display: block;
+}
+.sub_menu_left{
+	border: 1px solid #cccccc;
+	padding: 10px;
+	background: #fff;
+	position: absolute;
+	left: 164px;
+	top: 102px;
+}
+.sub_menu_left ul{
+	margin-left: 10px;
+}
+ul.list_submenu li.has_sub {
+background: url(../../images/muiten_right.gif) no-repeat 115px 10px;
+}
+#col_right .col_right_content{
+
+}
+/* style conten */
+#con_title{
+height: 119px;
+background-color: #fff;
+margin-top: 0px;
+}
+#con_title .con_title{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+#con_title .con_description{
+	padding-left: 10px;
+}
+
+#con_content #con_toonbar{
+	height: 70px;
+	padding-bottom: 10px;
+	background-color: #fff;
+	border-top-width: 1px;
+	border-top-color: #ADAAAA;
+	border-top-style: solid;
+	padding-top: 10px;
+}
+#con_content #con_toonbar .con_toonbar{
+	float: right;
+	padding-right: 40px;
+}
+#con_content #con_toonbar .con_search{
+	padding-left: 10px;
+	float: left;
+	height:40px;
+}
+#con_title .con_title h3{
+	border-bottom-style: solid;
+	border-bottom-color: #DADADA;
+	border-bottom-width: 1px;
+}
+.pagination ul {
+	margin-left: 12px!important;
+	margin-right: 40px;
+}
+.btn{
+border: solid 1px #ADAAAA;
+}
+.con_form ul li textarea{
+	margin-top: 10px;
+}
+legend{
+	margin-left: 10px;
+}

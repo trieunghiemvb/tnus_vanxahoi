@@ -1,0 +1,9 @@
+.list-profile td{
+	cursor: pointer;
+}
+.dataTables_wrapper .col-sm-12{
+	padding: 0;
+}
+.dataTables_scrollHeadInner table{
+	margin-bottom: 0;
+}

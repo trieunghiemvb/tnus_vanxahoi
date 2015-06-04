@@ -1,0 +1,15 @@
+body {
+font: 400 12px arial;
+background: url("../../images/bg_body.gif") no-repeat center top #fff;
+}
+li{
+	list-style-type: none;
+}
+
+.editor{
+margin-left: -19px;
+width: 90%;
+}
+.right ul li{
+	display: inline;		
+}

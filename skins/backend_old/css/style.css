@@ -1,0 +1,141 @@
+body{
+    font-size: 13px;
+}
+.row{margin: 0}
+.auto_scroll{
+    overflow-y: auto;
+}
+
+/*NAVBAR*/
+.navbar{
+    min-height: 32px;
+}
+.navbar-brand{
+    padding: 6px 15px;
+    height: 30px;
+}
+.navbar-nav > li > a{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.navbar-nav > li > .dropdown-menu:before{
+    content: "";
+    display: inline-block;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid rgba(0, 0, 0, .15);
+    position: absolute;
+    top: -7px;
+    left: 9px;
+}
+.navbar-nav > li > .dropdown-menu:after{
+    content: "";
+    display: inline-block;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    position: absolute;
+    top: -6px;
+    left: 10px;
+}
+.navbar-nav.navbar-right > li > .dropdown-menu:before{
+    left: auto;
+    right: 9px;
+}
+.navbar-nav.navbar-right > li > .dropdown-menu:after{
+    left: auto;
+    right: 10px;
+}
+
+/*SECTION*/
+.maincontent{
+    margin-top: 60px;
+}
+
+.app_content{
+    margin-top: 60px;
+}
+
+
+/*Overlay dialog*/
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0 , 0, 0.3);
+    z-index: 999;
+}
+#dialog-box{
+    margin: 200px auto;
+    width: 200px;
+    height: 100px;
+    display: block;
+    empty-cells: show;
+    color:#FFFFFF;
+    position: relative;
+}
+#dialog-box .loading-icon{
+    background: url(../../images/loading_5.gif) no-repeat 50% 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0px 50px;;
+}
+#dialog-box .message-icon{
+    background: url(../../images/loading_5.gif) no-repeat 50% 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0px 50px;;
+}
+#dialog-box .dialog-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+.dialog-box-messeage{
+    margin: 200px auto;
+    width: 400px !important;
+    color:#000000 !important;
+    font-size: 12px;
+    padding: 10px;
+    margin: 5px;
+    height: 200px;
+    display: block;
+    empty-cells: show;
+    text-align: center;
+    background: #FFFFFF;
+
+} 
+.dialog-title{
+    text-align: center;
+    color: #F7A922;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;  
+} 
+.dialog-messeage{
+    color:#000000 !important;
+    font-size: 12px;
+    padding: 10px;  
+} 
+/*Notice messeage*/
+.message {
+    margin-top: -25px;
+    position: fixed;
+    z-index: 999;
+}
+.alert {
+    margin-bottom: 0px;
+    padding: 2px 10px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.alert-dismissable .close, .alert-dismissible .close {
+    right: 0;
+    top: 0;
+}
+.alert .close{
+    font-size: 12px;
+}
